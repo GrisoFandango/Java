@@ -8,9 +8,11 @@ public class Text {
 		Scanner input = new Scanner(System.in);
 		
 		System.out.print("Please insert a string: ");
-		String p = input.next();
-		String q = input.next();
-		String r = input.next();
+		String p = input.nextLine();
+		System.out.print("Please insert a string: ");
+		String q = input.nextLine();
+		System.out.print("Please insert a string: ");
+		String r = input.nextLine();
 		String x = p+q+r;
 		
 		String pUp = p.toUpperCase();
