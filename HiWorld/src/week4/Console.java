@@ -15,7 +15,7 @@ public class Console {
 			return reply;
 		}
 		
-		/**Method for integer imput*/
+		/**Method for integer input*/
 		public int askInt(String aPrompt) {
 			String reply = askString(aPrompt);
 			//parseInt(...) converts string to int;

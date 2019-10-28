@@ -20,11 +20,11 @@ public class InputExcersize {
 		System.out.println("Enter your age");
 		int age2 = input1.nextInt();
 		
-		input1.nextLine();
+		//input1.nextLine();
 		
 		System.out.println("Enter your name");
 		String middlename = input1.nextLine();
-
+		
 	}
 
 }

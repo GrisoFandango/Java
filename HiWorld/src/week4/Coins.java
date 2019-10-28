@@ -1,13 +1,14 @@
 package week4;
 
-import java.util.Scanner;
+
 
 public class Coins {
 	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
-		
-		System.out.print("Insert your amount: ");
-		double amountP =input.nextDouble();
+		//Scanner input = new Scanner(System.in);
+		Console console = new Console();
+		double amountP = console.askDouble("Insert your amount: ");
+		/*System.out.print("Insert your amount: ");
+		double amountP =input.nextDouble();*/
 		double amount = amountP*100;
         int pound=0;
         int fifty=0;
