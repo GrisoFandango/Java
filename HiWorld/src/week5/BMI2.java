@@ -6,8 +6,11 @@ public class BMI2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		int i=0;
 		Console console = new Console();
+		int u=console.askInt("How many times do you want run the program? ");
+		while (i < u) {
+		i ++;
 		double weightP = console.askDouble("Insert your weight in pound: ");
 		double heightI = console.askDouble("Insert your height in inches: ");
 		
@@ -26,7 +29,8 @@ public class BMI2 {
 			}
 			else
 				System.out.println("You are fine");
-		
+	}
+	System.out.println("Thank you for using our service");
 	}
 
 }
