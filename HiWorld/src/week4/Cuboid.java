@@ -1,3 +1,6 @@
+/*Create a class called Cuboid to read values for width, length and height.
+Work out the volume of the cuboid and display the result formatted
+to 0 decimal places. */
 package week4;
 
 import java.util.Scanner;
@@ -16,7 +19,8 @@ public class Cuboid {
 		System.out.print("Please insert the height: ");
 		double height = input.nextDouble();
 		
-		System.out.printf("The volume of the Cuboid is: %.0f %n", (width*lenght*height));
+		System.out.printf("The volume of the Cuboid is: %.0f %n",
+				(width*lenght*height));
 		
 	}
 }

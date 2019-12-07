@@ -1,3 +1,6 @@
+/*Create a class called Average that will ask the user to read 3 numbers
+A, B and C and work out the average. Display the result as
+“The average of the 3 number is: x”. */
 package week4;
 
 import java.util.Scanner;
@@ -19,6 +22,4 @@ public class Average {
 		
 		System.out.print("The average of the 3 numbers is: "+ (n1+n2+n3)/3);
 	}
-	
-
 }

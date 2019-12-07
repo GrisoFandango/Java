@@ -1,3 +1,4 @@
+// Write a program that will print out the sum of the first 5 odd numbers.
 package week2;
 
 public class Q2 {
@@ -15,6 +16,6 @@ public class Q2 {
 			}
 	}
 			
-	System.out.println("The sum of the first 5 odd number is:"+sum);
+	System.out.println("The sum of the first 5 odd number is: "+sum);
 	}
 }

@@ -1,34 +1,21 @@
+/*Using the Console class, create a class called Balance. Prompt the user to input a starting
+ balance and an interest rate. Work out the balances after the first, second and third year.*/
 package week4;
-
-
 
 public class Balance {
 
 		public static void main(String[] args) {
-			/*Scanner input = new Scanner(System.in);
-			
-			System.out.print("Insert your Balance: ");
-			double balance = input.nextDouble();
-			System.out.print("Insert your annual interest rate: ");
-			double interest = input.nextDouble();
-			double y1 = balance + (balance/100*interest);
-			double y2 = y1 + (y1/100*interest);
-			double y3 = y2 + (y2/100*interest);
-			System.out.println("Your Balance at the end of Year 1 will be: "+y1);
-			System.out.println("Your Balance at the end of Year 2 will be: "+y2);
-			System.out.println("Your Balance at the end of Year 3 will be: "+y3);*/
-			
+
 			Console console = new Console ();
 			double balance = console.askDouble("Insert your Balance: ");
 			double interest = console.askDouble("Insert your annual interest rate: ");
-			double y1 = balance + (balance/100*interest);
-			double y2 = y1 + (y1/100*interest);
-			double y3 = y2 + (y2/100*interest);
-			System.out.println("Your Balance at the end of Year 1 will be: "+y1);
-			System.out.println("Your Balance at the end of Year 2 will be: "+y2);
-			System.out.println("Your Balance at the end of Year 3 will be: "+y3);
-			
-			
+			int i = 1;
+			while (i <= 3){
+				balance = balance + (balance/100*interest);
+				System.out.println("Your Balance at the end of Year "+i+
+						"will be: "+balance);
+				i++;
+			}
 			
 		}
 }

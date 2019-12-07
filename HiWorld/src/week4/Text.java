@@ -1,3 +1,11 @@
+/*Create a class called Text and write coed using string manipulation.
+String p = Enter user input
+String q = Enter user input
+String r = Enter user input
+Write code to work out and display:
+•	(p+q+r) in capital letters (leave a space between to separate the words)
+•	Concatenation of (r + p) in lowercase
+•	Total number of characters within (p+q+r)*/
 package week4;
 
 import java.util.Scanner;
@@ -14,19 +22,15 @@ public class Text {
 		System.out.print("Please insert a string: ");
 		String r = input.nextLine();
 		String x = p+q+r;
-		
-		String pUp = p.toUpperCase();
-		String qUp = q.toUpperCase();
-		String rUp = r.toUpperCase();
-		System.out.println("P+Q+R Uppercase: "+pUp+" "+qUp+" "+rUp);
-		
-		String rLo = r.toLowerCase();
-		String pLo = p.toLowerCase();
-		System.out.println("r + p Lowercase: "+rLo+" "+pLo);
+
+		System.out.println("P+Q+R Uppercase: "+p.toUpperCase()+
+				" "+q.toUpperCase()+" "+
+				r.toUpperCase());
+
+		System.out.println("r + p Lowercase: "+r.toLowerCase()+" "+
+				p.toLowerCase());
 		
 		System.out.println("The lenght is: "+x.length());
-		
-		System.out.println("P+Q+R Uppercase: "+p.toUpperCase()+" "+q.toUpperCase()+" "+r.toUpperCase());
 	}
 
 }
