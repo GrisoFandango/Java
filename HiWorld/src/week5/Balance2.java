@@ -1,3 +1,7 @@
+/*Amend the Balance class to work out the balance after the first, second, third etc. up to and
+including tenth year. Once again, your program should prompt the user to input a starting balance
+and interest rate (intRate). Balance for a year is calculated as (1 + intRate) multiplied by balance
+for the previous year. Example: for 5% interest rate, the user should enter 0.05.*/
 package week5;
 
 import week4.Console;

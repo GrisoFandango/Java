@@ -1,3 +1,4 @@
+/*Create a class called EvenNos. Write a program that add the first 100 even numbers.*/
 package week5;
 
 public class EvenNos {
