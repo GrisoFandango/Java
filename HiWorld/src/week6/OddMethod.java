@@ -1,7 +1,7 @@
 package week6;
 
 public class OddMethod {
-    static int OddSum(int odds) {
+    public static int OddSum(int odds) {
         int sum = 0;
         int i = 1;
         int count = 0;

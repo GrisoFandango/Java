@@ -1,7 +1,7 @@
 package week6;
 
 public class Power3 {
-    static int PowerThree(int count) {
+    public static int PowerThree(int count) {
         int sum = 0;
         for (int i = 1; i <= count; i++) {
             int power=(i*i*i);

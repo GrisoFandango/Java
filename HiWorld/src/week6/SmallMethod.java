@@ -1,7 +1,7 @@
 package week6;
 
 public class SmallMethod {
-    static int Smallest(int num1, int num2, int num3){
+    public static int Smallest(int num1, int num2, int num3){
         int smallest=0;
         if (num1 <= num2 && num1 <= num3){
             smallest=num1;

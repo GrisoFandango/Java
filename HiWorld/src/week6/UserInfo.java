@@ -20,7 +20,7 @@ public class UserInfo {
 
     }
 
-    static double BMI(double height, double weight){
+    public static double BMI(double height, double weight){
         double kilo = weight * 0.4535;
         double meter = height * 0.0254;
         double bmi = kilo/(Math.pow(meter, 2));
@@ -34,7 +34,7 @@ public class UserInfo {
             System.out.print("You are fine, ");
         return bmi;
     }
-    static String Uname(String name, String lastname){
+    public static String Uname(String name, String lastname){
         String username = name.substring(0,3).toUpperCase()+lastname.substring(0,2).toUpperCase();
         return username;
     }

@@ -1,7 +1,7 @@
 package week6;
 
 public class SquaresMethod {
-    static int Squares(int count) {
+    public static int Squares(int count) {
         int sum = 0;
         for (int i = 1; i <= count; i++) {
             sum +=(i * i);

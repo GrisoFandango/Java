@@ -1,7 +1,7 @@
 package week6;
 
 public class EvenMethod {
-    static int EvenSum(int evens) {
+    public static int EvenSum(int evens) {
         int sum = 0;
         int i = 1;
         int count = 0;
